@@ -45,9 +45,9 @@ body{
 .c-rating{
     font-size: 1.15rem;
 }
-
+ 
 /* =================================== Header-section-css =================================== */
-#header-area{
+.c-header-bg{
     background-color:  #264653;
     color: #fff;
 }

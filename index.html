@@ -28,7 +28,7 @@
     </head>
     <body>
         <!-- Header-section -->
-        <header class="py-2" id="header-area">
+        <header class="py-2 c-header-bg" id="header-area">
             <!-- Navigation-area -->
             <nav
                 class="
@@ -36,7 +36,8 @@
                     c-font-w5
                     py-3
                     navbar-expand-lg navbar-dark
-                    bg-transparent
+                    c-header-bg 
+                    fixed-top
                 "
             >
                 <div class="container">
@@ -61,39 +62,40 @@
                                 <a
                                     class="nav-link active mx-3"
                                     aria-current="page"
-                                    href="#"
+                                    href="#header-area"
                                     >Home</a
                                 >
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active mx-3" href="#"
+                                <a class="nav-link active mx-3" href="#feture"
                                     >Shop</a
                                 >
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active mx-3" href="#"
+                                <a class="nav-link active mx-3" href="#news"
                                     >News</a
                                 >
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active mx-3" href="#"
+                                <a class="nav-link active mx-3" href="#footer"
                                     >Contact</a
                                 >
                             </li>
                         </ul>
                         <form class="d-flex ms-5">
-                            <button
-                                class="btn text-white c-button-bg"
+                            <a href="https://app.fullstory.com/login/"
+                            target="_blank"
+                                class="btn text-white px-4 c-button-bg"
                                 type="submit"
                             >
                                 Login
-                            </button>
+                            </a>
                         </form>
                     </div>
                 </div>
             </nav>
             <!-- Banner-area -->
-            <section class="container">
+            <section class="container mt-4">
                 <div class="row p-5">
                     <div class="col-lg-6 d-flex align-items-center">
                         <div class="">
@@ -141,7 +143,7 @@
         <!-- Main-sections -->
         <main id="main" class="my-5">
             <!-- Fetured-Bikes-section -->
-            <section class="container c-section-gap">
+            <section id="feture" class="container c-section-gap">
                 <div class="d-flex flex-column align-items-center">
                     <h2 class="c-font-w6 c-heading-1 mb-0">
                         Fetured Bikes 2021
@@ -176,7 +178,7 @@
                 </div>
             </section>
             <!-- latest-News-section -->
-            <section class="container c-section-gap">
+            <section id="news" class="container c-section-gap">
                 <h2 class="text-center c-font-w6 c-heading-1 mb-5 c-fade-black">
                     Latest News
                 </h2>
@@ -459,7 +461,7 @@
                             align-items-center
                         "
                     >
-                        <div class="accordion" id="accordion-bike-ride">
+                        <div class="accordion w-100" id="accordion-bike-ride">
                             <div
                                 class="
                                     accordion-item
@@ -669,7 +671,7 @@
 
                             <div class="card-body pb-0">
                                 <h3 class="text-center c-font-w5 c-heading-2 mb-5 c-fade-black mb-1">
-                                    <span class="c-orange mt-1">GCV /</span> PRESSURE WASHER
+                                    <span class="c-orange mt-1">GCV /</span>PRESSURE WASHER
                                 </h3>
                                 <h5 class="text-center card-title">POWERFUL. SIMPLE. RELIABLE.</h5>
                                 <p class="card-text c-gray">
@@ -698,7 +700,7 @@
 
                             <div class="card-body pb-0">
                                 <h3 class="text-center c-font-w5 c-heading-2 mb-5 c-fade-black mb-1">
-                                    <span class="c-orange mt-1">MINI 4-STROKE</span>RESIDENTIAL
+                                    <span class="c-orange mt-1">MINI 4-STROKE /</span>RESIDENTIAL
                                 </h3>
                                 <h5 class="text-center card-title">MEET THE WORLD’S LIGHTEST OHC ENGINE.</h5>
                                 <p class="card-text c-gray">
@@ -718,6 +720,196 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </section>
+            <!-- Invention-of-Honda -->
+            <section class="container-fluid c-section-gap">
+                <h2 class="text-center c-font-w6 c-heading-1 mb-5 c-fade-black">
+                    Honda Company<span class="c-orange">Invention</span>
+                </h2>
+                <div class="row px-5 mx-auto">
+                    <div
+                        class="
+                            col-lg-6 col-sm-12
+                            d-flex
+                            mx-auto
+                            p-3
+                            align-items-center
+                        "
+                    >
+                    <div class="accordion w-100" id="accordion-bike-ride">
+                        <div
+                            class="
+                                accordion-item
+                                my-4
+                                rounded-3
+                                shadow-sm
+                                border-light
+                                bg-secondary
+                            "
+                        >
+                            <h2 class="accordion-header c-accordion-h">
+                                <button
+                                    class="accordion-button"
+                                    type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#child-item-one"
+                                >
+                                How much does it cost to buy ASIMO?
+                                </button>
+                            </h2>
+                            <div
+                                id="child-item-one"
+                                class="accordion-collapse show"
+                            >
+                                <div class="accordion-body">
+                                    <small class="text-warning"
+                                        >Honda's stated intent of making Asimo was to provide a helper for elderly and other communities in need. However at a price tag of <strong>2.5 million dollars</strong>, buying an Asimo to help your grandma was far more expensive than hiring a real human assistant.</small
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="
+                                accordion-item
+                                my-4
+                                rounded-3
+                                shadow-sm
+                                border-light
+                                bg-danger
+                            "
+                        >
+                            <h2 class="accordion-header c-accordion-h">
+                                <button
+                                    class="accordion-button"
+                                    type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#child-item-two"
+                                >
+                                Is ASIMO still alive?
+                                </button>
+                            </h2>
+                            <div
+                                id="child-item-two"
+                                class="accordion-collapse collapse"
+                            >
+                                <div class="accordion-body">
+                                    <small class="text-white">
+                                        Asimo, Honda's adorable, humanoid robot, is no more. The company announced it would cease production of the robot in order to focus on using Asimo's technology for more practical use cases in nursing and road transport.
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="
+                                accordion-item
+                                my-4
+                                rounded-3
+                                shadow-sm
+                                border-light
+                                bg-info
+                            "
+                        >
+                            <h2 class="accordion-header c-accordion-h">
+                                <button
+                                    class="accordion-button"
+                                    type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#child-item-three"
+                                >
+                                What is the Asimo robot used for?
+                                </button>
+                            </h2>
+                            <div
+                                id="child-item-three"
+                                class="accordion-collapse collapse"
+                            >
+                                <div class="accordion-body">
+                                    <small class="c-dark-gray">
+                                        Asimo is a humanoid robot designed to be a helper to people. It can run, dance, hop, and kick a soccer ball. It travels the world as an ambassador to robokind, making humans excited about robotics.
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="
+                                accordion-item
+                                my-4
+                                rounded-3
+                                shadow-sm
+                                border-light
+                                bg-dark
+                            "
+                        >
+                            <h2 class="accordion-header c-accordion-h">
+                                <button
+                                    class="accordion-button"
+                                    type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#child-item-four"
+                                >
+                                Is ASIMO an AI?
+                                </button>
+                            </h2>
+                            <div
+                                id="child-item-four"
+                                class="accordion-collapse collapse"
+                            >
+                                <div class="accordion-body">
+                                    <small class="text-white-50"
+                                        >ASIMO (Advanced Step in Innovative Mobility) is a humanoid robot created by Honda in 2000.</small
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="
+                                accordion-item
+                                my-4
+                                rounded-3
+                                shadow-sm
+                                border-light
+                                bg-success
+                            "
+                        >
+                            <h2 class="accordion-header c-accordion-h">
+                                <button
+                                    class="accordion-button"
+                                    type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#child-item-five"
+                                >
+                                Can ASIMO speak?
+                                </button>
+                            </h2>
+                            <div
+                                id="child-item-five"
+                                class="accordion-collapse collapse"
+                            >
+                                <div class="accordion-body">
+                                    <small class="text-info"
+                                        >Honda's Asimo robot can now have simple conversations in three languages. There is also an interpretation function, so robots can convert a foreign visitor's question into Japanese and convey it to store clerks and other people.</small
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div
+                        class="
+                            col-sm-12 col-lg-6 
+                            d-flex
+                            justify-content-center
+                            align-items-center
+                        "
+                    >
+                        <img
+                            src="images/engins/asimo.jpeg"
+                            class="w-100"
+                            alt="robot asimo"
+                        />
+                    </div>
+                    
                 </div>
             </section>
         </main>
