@@ -25,6 +25,26 @@ body{
 .c-section-gap{
     margin-bottom: 7rem;
 }
+.c-dark-gray{
+    color: #252B42;
+}
+.c-gray{
+    color: #6C6C6C;
+}
+.c-off-white{
+    color: #dfdfdf;
+}
+.c-orange{
+    color: #E76F51;
+}
+
+.c-fade-black{
+    color: #0D0925;
+}
+.c-rating{
+    font-size: 1.15rem;
+}
+
 /* =================================== Header-section-css =================================== */
 #header-area{
     background-color:  #264653;
@@ -42,4 +62,8 @@ body{
 }
 .c-s-gray{
     filter: grayscale(0.9);
+}
+.c-width{
+    width: 8.5rem;
+    height: 8.5rem;
 }
