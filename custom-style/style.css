@@ -6,12 +6,6 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
-
-/* =================================== Header-section-css =================================== */
-#header-area{
-    background-color:  #264653;
-    color: #fff;
-}
 .c-font-w6{
     font-weight: 600;
 }
@@ -22,6 +16,24 @@ body{
 .c-font-w3{
     font-weight: 300;
 }
+.c-heading-1{
+    font-size: 3rem;
+}
+/* =================================== Header-section-css =================================== */
+#header-area{
+    background-color:  #264653;
+    color: #fff;
+}
+
 .c-button-bg{
     background-color: #E76F51;
+}
+
+/*====================================== Main-section-css=============================== */
+.c-hr-style{ 
+    width: 60px;
+    border: 1px solid rgb(251, 62, 62);   
+}
+.c-s-gray{
+    filter: grayscale(0.9);
 }
