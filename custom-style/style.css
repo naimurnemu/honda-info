@@ -41,6 +41,7 @@ body{
 .c-fade-black{
     color: #0D0925;
 }
+
 .c-rating{
     font-size: 1.15rem;
 }
@@ -67,3 +68,7 @@ body{
     width: 8.5rem;
     height: 8.5rem;
 }
+.c-accordion-h{
+    color: #383838;
+}
+/* ==================================== Footer-section =======================================*/
