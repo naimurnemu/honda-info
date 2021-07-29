@@ -3,10 +3,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 /*===================================== Utilities or common css ===============================*/
+body{
+    font-family: 'Poppins', sans-serif;
+}
 
 /* =================================== Header-section-css =================================== */
 #header-area{
-    font-family: 'Poppins', sans-serif;
     background-color:  #264653;
     color: #fff;
 }
