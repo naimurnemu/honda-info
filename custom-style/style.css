@@ -19,6 +19,12 @@ body{
 .c-heading-1{
     font-size: 3rem;
 }
+.c-heading-2{
+    font-size: 1.75rem;
+}
+.c-section-gap{
+    margin-bottom: 7rem;
+}
 /* =================================== Header-section-css =================================== */
 #header-area{
     background-color:  #264653;
